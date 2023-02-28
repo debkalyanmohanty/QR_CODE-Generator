@@ -44,3 +44,5 @@ app.get('/download' , (req,res)=> {
 app.listen(3000, ()=>{
     console.log("Server Live At 3000");
 })
+
+module.exports = app;
